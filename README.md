@@ -1,10 +1,14 @@
 Sitemap generator for Play! framework.
 
-How to use?
+how to use?
 ===========
 
-You must create an action that will generate yoru sitemap and you have to customize the Sitemap generator for your website.
-
+You must create an action that will generate your SiteMap and you have to create a SiteMap generator for your website.
 For a code example, [see this Gist](https://gist.github.com/917767 "Gist").
+
+You can also simply add annotations to your actions (in Application.java for the moment):
+Add `@InSitemap(changefreq="daily", priority=0.8)` before an action
+
+
 
 
